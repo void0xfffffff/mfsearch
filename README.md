@@ -11,8 +11,8 @@ some parts are not implemented but the core is ready for poc. for help use mouse
 currently no source code is available not because the code is secret only because it's simple. you can reverse engineer it anyways, is not obfuscated is not even packed.
 
 there are some secret hotkeys:
-enter - searc
-escape - while searching cancels the search otherwise exits the program
-ctrl+s - saves selected entries to file, or if not selected, all of them
-ctrl+c - copy selected enteries, or if not selected, all of them
-ctrl+r for resetting the searched enteries
+- enter: searc
+- escape: while searching cancels the search otherwise exits the program
+- ctrl+s: saves selected entries to file, or if not selected, all of them
+- ctrl+c: copy selected enteries, or if not selected, all of them
+- ctrl+r: for resetting the searched enteries

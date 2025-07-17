@@ -1,4 +1,4 @@
-a proof of concept about how a proper fs search engine must work on windoes.
+a proof of concept about how a proper fs search engine must work on windows os.
 
 - not privileged
 - ultra fast, does 10 minute tasks of microsoft search tool under 5 seconds and while repeated task takes another 10 minutes with microsoft tool takes under 0.1 second with this
@@ -7,3 +7,5 @@ a proof of concept about how a proper fs search engine must work on windoes.
 - no indexing garbage everything realtime.
 
 some parts are not implemented but the core is ready for poc. for help use mouse hovering.
+
+currently no source code is not because the code is secret only because it's simple. you can reverse engineer it anyways, is not obfuscated is not even packed.

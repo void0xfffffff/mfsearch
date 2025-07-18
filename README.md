@@ -14,8 +14,11 @@ some parts are not implemented but the core is ready for poc. for help use mouse
 currently no source code is available not because the code is secret only because it's simple. you can reverse engineer it anyways, is not obfuscated is not even packed.
 
 there are some secret hotkeys:
-- enter: search
+- enter: search if no entery is selected, if some enteries are selected opens their parent dir but currently is buggy
+- double click: on enteries opens their parrent dir bit currently is buggy
 - escape: while searching cancels the search otherwise exits the app
 - ctrl+s: saves selected entries to file, or if not selected saves all of them
 - ctrl+c: copy selected enteries, or if not selected, all of them
 - ctrl+r: for resetting the searched enteries
+
+the file type detection part uses a GPLv3 library and is not closd source or bsd compatible, i brlieve that nothing is closed source bin is already source code in another language but because of GPLv3 rules i won't fix it for release, currently crashs randomly only if not be used under debugger, is not intentional! only debugger changes mem layout and the lib's intrnal bug does not get triggered.

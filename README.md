@@ -7,6 +7,7 @@ a proof of concept about how a proper fs search engine must work on windows os.
 - no indexing garbage everything is realtime
 - nice filters
 - settings and inputs will be saved if be correct and used successfuly
+- it uses os cache so speed up after first search can be presistent after exit while same info still exist in os cache. for max benefits increase ntfs cache size and mem usage in registry
 
 some parts are not implemented but the core is ready for poc. for help use mouse hovering.
 

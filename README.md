@@ -21,4 +21,4 @@ there are some secret hotkeys:
 - ctrl+c: copy selected enteries, or if not selected, all of them
 - ctrl+r: for resetting the searched enteries
 
-the file type detection part uses a GPLv3 library and is not compatible with closed source or bsd, i believe that nothing is closed source bin is already source code in another language but because of GPLv3 rules i won't fix it for release, currently crashs randomly only if not be used under debugger, is not intentional! only debugger changes mem layout and the lib's intrnal bug does not get triggered.
+the file type detection part uses a GPLv3 library and is not compatible with closed source or bsd, i believe that nothing is closed source bin is already source code in another language but because of GPLv3 rules i won't fix it for release, currently crashs randomly only if not be used under debugger, is not intentional! only debugger changes mem layout and the lib's internal bug does not get triggered.

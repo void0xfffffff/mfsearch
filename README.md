@@ -9,6 +9,8 @@ a proof of concept about how a proper fs search engine must work on windows os.
 - settings and inputs will be saved if be correct and used successfuly
 - it uses os cache so speed up after first search can be presistent after exit while same info still exist in os cache. for max benefits increase ntfs cache size and mem usage in registry
 
+download: https://github.com/void0xfffffff/mfsearch/releases
+
 some parts are not implemented but the core is ready for poc. for help use mouse hovering.
 
 currently no source code is available not because the code is secret only because it's simple. you can reverse engineer it anyways, is not obfuscated is not even packed.

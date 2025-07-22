@@ -2,7 +2,7 @@ a proof of concept about how a proper fs search engine must work on windows os.
 
 - not privileged
 - ultra fast, does 10 minute tasks of microsoft search tool under 5 seconds and while repeated task takes another 10 minutes with microsoft tool takes under 0.1 second with this
-- searchs 1tb old hdd on 2010 era hw full of little garbages and fragmentations with around 50mb mem usage (variable) and low cpu usage
+- searches 1tb old hdd on 2011 era hw full of little garbages and fragmentations with around 50mb mem usage (variable) and 2 cpu cores maxed out 1 for gui while gui changes and 1 for other operations
 - a single exe and writes only one single xml file for normal settings
 - no indexing garbage everything is realtime
 - nice filters

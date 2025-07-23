@@ -2,9 +2,10 @@ a proof of concept about how a proper fs search engine must work on windows os.
 
 - not privileged
 - ultra fast
-- low mem usage around 40mb (variable) and 2 cpu cores usually low cpu usage but at peak 2 cores shall be maxed out 1 for gui while gui changes and 1 for search operations
+- low mem usage around 40mb (variable)
+- uses 2 cpu cores. usually low cpu usage but at peak the 2 cores will be maxed out, 1 for gui while gui changes and 1 for search operations
 - optimized for old hard disks
-- only a single exe and writes only one single xml file for normal settings
+- is only a single exe and writes only one single xml file for normal settings
 - no indexing garbage, everything is realtime
 - nice filters
 - settings and inputs will be saved if be correct and used successfuly

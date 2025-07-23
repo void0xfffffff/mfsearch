@@ -25,4 +25,4 @@ there are some secret hotkeys:
 - ctrl+c: copy selected enteries, or if not selected, all of them
 - ctrl+r: for clearing/resetting the search results
 
-the file type detection part uses a GPLv3 library and is not compatible with closed source or bsd, i believe that nothing is closed source bin is already source code in another language but because of GPLv3 rules i won't fix it for release, only works under debugger but is not intentional
+the file type detection part uses a GPLv3 library and is not compatible with closed source or this custom license, i believe that nothing is closed source bin is already source code in another language but because of GPLv3 rules i won't fix it for release, only works under debugger but is not intentional

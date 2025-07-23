@@ -9,7 +9,7 @@ a proof of concept about how a proper fs search engine must work on windows os.
 - no indexing garbage, everything is realtime
 - nice filters
 - settings and inputs will be saved if be correct and used successfuly
-- it uses os cache so speed up after first search can be presistent after exit while same data still exist in os cache. for max benefits increase os cache size and ntfs mem usage in registry
+- it uses os cache so speed up after first search can be presistent after exit while same data still exist in os cache. for max benefits increase os mem cache size and ntfs mem usage in registry
 
 download: https://github.com/void0xfffffff/mfsearch/releases
 

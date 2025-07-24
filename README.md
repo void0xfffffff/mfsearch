@@ -9,7 +9,7 @@ a proof of concept about how a proper fs search engine must work on windows os.
 - no indexing garbages, everything is realtime
 - nice filters
 - settings and inputs will be saved if be correct and used successfuly
-- it uses os cache so speed up after first search can be presistent after exit while same data still exist in os cache. for max benefits increase os mem cache size and ntfs mem usage in registry
+- fist search especially at your windows startup is slower and all of fs usages fills up os mem cache and increases performane over time. this tool like others uses os mem cache and speed up after first search can be presistent after exit while same data still exist in os mem cache. but this tool also at its best keeps more data warmed up in cache. for max performance increase os mem cache size and ntfs mem usage in registry.
 
 download: https://github.com/void0xfffffff/mfsearch/releases
 

@@ -15,7 +15,7 @@ download: https://github.com/void0xfffffff/mfsearch/releases
 
 some parts are not implemented yet but the core is ready for poc. for help use mouse hovering.
 
-performance depends on many low level details so i do not believe in benchmarks just test it yourself. this tool is optimized for old hard disks which requires single threaded sequential access and max cache optimizations which are done but the optimization quality depends on many low level hardware and software details. and i am not using usual timers and intervals so the delay behaviour is different on different hardwares and has direct effects on performance, is optimized for 2011 era hardwares, in next major versions i will think about optimizaion for all hardwares.
+performance depends on many low level details so i do not believe in benchmarks just test it yourself. this tool is optimized for old hard disks which requires single threaded sequential access and max cache optimizations which are done but the optimization quality depends on many low level hardware and software details. and i am not using usual timers and intervals so the delay behaviour is different on different hardwares and has direct effects on performance. this tool is optimized for 2011 era hardwares, in next major versions i will think about optimizaion for all hardwares.
 
 hotkeys:
 - enter: search if no entry is selected, if some entries are selected opens their dir but currently is buggy

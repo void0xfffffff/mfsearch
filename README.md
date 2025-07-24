@@ -2,11 +2,11 @@ a proof of concept about how a proper fs search engine must work on windows os.
 
 - not privileged
 - ultra fast
-- low mem usage around 40mb (variable)
+- low mem usage (but is variable and depends on many complexities)
 - uses 2 cpu cores. usually low cpu usage but at peak the 2 cores will be maxed out, 1 for gui while gui changes and 1 for search operations
 - optimized for old hard disks
-- is only a single exe and writes only one single xml file for normal settings
-- no indexing garbage, everything is realtime
+- is only a single exe and writes only one single xml file for its own settings
+- no indexing garbages, everything is realtime
 - nice filters
 - settings and inputs will be saved if be correct and used successfuly
 - it uses os cache so speed up after first search can be presistent after exit while same data still exist in os cache. for max benefits increase os mem cache size and ntfs mem usage in registry
@@ -15,14 +15,14 @@ download: https://github.com/void0xfffffff/mfsearch/releases
 
 some parts are not implemented yet but the core is ready for poc. for help use mouse hovering.
 
-currently no source code is available for you not because the code is secret only because it's simple. you can reverse engineer it anyways, is not obfuscated is not even packed.
+performance depends on many low level details so i do not believe in benchmarks just test it yourself. this tool is optimized for old hard disks which requires single threaded sequential access and max cache optimizations which are done but the optimization quality depends on many low level hardware and software details. and i am not using usual timers and intervals so the delay behaviour is different on different hardwares and has direct effects on performance, is optimized for 2011 era hardwares, in next major versions i will think about optimizaion for all hardwares.
 
-there are some secret hotkeys:
-- enter: search if no entery is selected, if some enteries are selected opens their parent dir but currently is buggy
-- double click: on enteries opens their parrent dir bit currently is buggy
-- escape: while searching cancels the search otherwise exits the app
+hotkeys:
+- enter: search if no entry is selected, if some entries are selected opens their dir but currently is buggy
+- double click: on entries opens their dir but currently is buggy
+- escape: while searching cancels the search otherwise if entry selected deselects otherwise exits the app
 - ctrl+s: saves selected entries to file, or if not selected saves all of them
-- ctrl+c: copy selected enteries, or if not selected, all of them
+- ctrl+c: copy selected entries, or if not selected, all of them
 - ctrl+r: for clearing/resetting the search results
 
-the file type detection part uses a GPLv3 library and is not compatible with closed source or this custom license, i believe that nothing is closed source bin is already source code in another language but because of GPLv3 rules i won't fix it for release, only works under debugger but is not intentional
+the file type detection part is currently buggy and must be replaced due to license issues.
